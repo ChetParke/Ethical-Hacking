@@ -17,7 +17,7 @@ An IDOR vulnerability within a user chat form transcipt can be used to gain hori
 #### 4 - Reproduction
 - Go to the lab website at 'https://0a8a005a040cf95c80df12a0002c0054.web-security-academy.net/'
 - After poking around we notice a live chat portion of the website. Let start chatting and see if there is any exposed user details.
-- Note that this chat room has the option for us to view/download the transcript from the conversation. Lets download a transciprt and review the HTTP history.
+- Note that this chat room has the option for us to view/download the transcript from the conversation. Lets download a transcript and review the HTTP history.
 - We find a GET request that is used to download the transcript. Within the header I can see *'GET /download-transcript/6.txt'*. What if I change the 6 to a diffrent number?
 - Next I increment the GET request all the way down trying 5.txt, 4.txt ... and finally we attemp 1.txt. And it works...
 - We are now viewing a chat transcipt that is not ours. We are even seeing sensitive user data being discussed in the chat.
