@@ -77,7 +77,7 @@ This vulnerability exists due to the applications use of unsanitized, user-suppl
     
 The input is never validated or patameterized. We can input anything we want and the database will execute it. 
 
-#### 8. Quick Fix 
+#### 6. Quick Fix 
 
 Instead of embedding user input into the SQL string, developers must bind paramenters safely.
 
@@ -92,6 +92,6 @@ Note * that this is the simple fix to the problem, there are many more steps tha
 - Enforcing least-privilage database access.
 - Implement proper authentication logic.
   
-#### 9. Ethical Diclaimer
+#### 7. Ethical Diclaimer
 
 **All activity performed in a controlled, authorized enviorment. Do not use these techniques on systems you do not own or have explicit permission to test.**
