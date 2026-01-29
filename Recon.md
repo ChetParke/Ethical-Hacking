@@ -1,11 +1,11 @@
 ## High Level
-1. read scope
-2. light manual recon(root domain, robots, certs)
-3. Subdomain enumeration
-4. check live hosts
-5. find URLS/endpoints
-6. find parameters
-7. test for vuln
+1️⃣ Read scope → know what’s allowed, auth rules, rate limits
+2️⃣ Light manual recon → root domain, /robots.txt, TLS certs, headers
+3️⃣ Subdomain enum → subfinder, assetfinder
+4️⃣ Live hosts → httpx
+5️⃣ URLs/endpoints → katana, gau, waybackurls
+6️⃣ Parameters → paramspider, arjun
+7️⃣ Test vulns → ffuf, nuclei, Burp Community (manual)
 
 
 
@@ -16,7 +16,7 @@ Initial tools
 - Arjun https://github.com/s0md3v/Arjun
 - ParamSpider https://github.com/devanshbatham/ParamSpider
 - Param-Miner https://github.com/PortSwigger/param-miner
-- 
+- KATANA BURP EXTENSIONS WORKS ON COMMUNITY use that first
 JavaScript Source Code Review(still searching for params)
 - LinkFinder https://github.com/GerbenJavado/LinkFinder
 - Run the JacaScript bookmarklets https://bsky.app/profile/renniepak.nl
