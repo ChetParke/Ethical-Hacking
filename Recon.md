@@ -1,10 +1,16 @@
 ## High Level
 1️⃣ Read scope → know what’s allowed, auth rules, rate limits
-2️⃣ Light manual recon → root domain, /robots.txt, TLS certs, headers
+
+2️⃣Light manual recon → root domain, /robots.txt, TLS certs, headers
+
 3️⃣ Subdomain enum → subfinder, assetfinder
+
 4️⃣ Live hosts → httpx
+
 5️⃣ URLs/endpoints → katana, gau, waybackurls
+
 6️⃣ Parameters → paramspider, arjun
+
 7️⃣ Test vulns → ffuf, nuclei, Burp Community (manual)
 
 
