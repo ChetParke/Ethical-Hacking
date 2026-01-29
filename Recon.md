@@ -1,3 +1,15 @@
+## High Level
+1. read scope
+2. light manual recon(root domain, robots, certs)
+3. Subdomain enumeration
+4. check live hosts
+5. find URLS/endpoints
+6. find parameters
+7. test for vuln
+
+
+
+### Tool breakout
 1. Use the app as intended and learn features and get a baseline of what the applications has to offer.
 2. Parameter Discovery
 Initial tools
