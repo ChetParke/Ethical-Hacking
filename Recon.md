@@ -1,17 +1,57 @@
 ## High Level
-1️⃣ Read scope → know what’s allowed, auth rules, rate limits
+1. Read Scope & Understand Program Rules
+- review engagment and bug bounty notes from target.
+- Configure scope if applicable
+- 
+2. Light Manual Recon & root/seed domain discovery
+- homepage
+- robots.txt
+- .well-known/
+- TLS ceerts
+- Tech Stack
+- ANS enumeration
+- Reverse WHOIS whoxy.com
+- GOOGLE FU
 
-2️⃣Light manual recon → root domain, /robots.txt, TLS certs, headers
+3. Subdomain numeration - expand attack surface
+- subfinder
+- assetfinder
+- amass
 
-3️⃣ Subdomain enum → subfinder, assetfinder
+4. Check Live Hosts - refine attack surface
+- httpx
+- httprobe
+- nmap (TCP scans)
 
-4️⃣ Live hosts → httpx
+5. Endpoint / URL Discovery
+- waybackurls
+- gau
+- katana
 
-5️⃣ URLs/endpoints → katana, gau, waybackurls
+6. Parameter Discovery
+- paramspider
+- arjun
+- gf (with param patterns)
 
-6️⃣ Parameters → paramspider, arjun
+7. Authentication & Access Control Mapping
+- Burp Suite
+- jwt_tool
+- Browser DevTools
 
-7️⃣ Test vulns → ffuf, nuclei, Burp Community (manual)
+8. Automated Vulnerability Scanning
+- nuclei
+- nikto
+- wpscan(wordpress only)
+
+9. Manual Vulnerability Testing
+
+10. Exploition & Implact Validation (Prove severity safely)
+- Burp Repeater
+- curl
+- postman (API testing)
+
+11. Write Report & Submit
+
 
 
 
