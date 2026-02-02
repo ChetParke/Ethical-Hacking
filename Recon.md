@@ -133,3 +133,98 @@ used to find ll subdomains in scope.
 - https://github.com/projectdiscovery/httpx
 - https://github.com/tomnomnom/httprobe
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Misc work flow
+SEED DOMAINS
+
+ANS ENUMERATION - find root/seed domains
+
+
+
+Reverse Whois - whoxy.com  DOMlink
+
+
+
+Ad/analytics relationships - built with .com(domain discovery
+
+
+
+GOOGLE FU - Google cooy
+
+IMG_2942.png
+
+
+
+Shodan - web crawler FOR SEED DOMAINS
+
+
+
+😀
+
+
+
+SUBDOMAINS
+
+
+
+Linked and JS discovery
+
+Linked discovery & subdomain enumeration 
+
+Burp suite pro
+gospider 
+Hakrawler
+Subdomainizer (Subdomain enumeration)
+Subscrapper
+Subdomain scrapping ()
+IMG_2944.png
+
+Google subdomain subtraction site: domain -what you don’t want
+Amass & subfinder
+GitHub subdomain.py
+Shosubgo 
+Cloud ranges
+
+
+Subdomain Bruteforcing
+
+MassDNS
+Amass
+ShuffleDNS
+Wordlist(
+Alteration scanning(can do waf bypass)
+
+
+PORT ANALYSIS
+
+mass scan
+Nmap
+Dnmassscan
+
+
+SEVICEScanning
+
+brutespray
+GitHub forking manual
+
+
+Starting review of domains
+
+manually view each one do I see hackable functionality 
+Review subdomain takeover (can I take over xyz)
+
